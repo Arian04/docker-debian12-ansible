@@ -14,7 +14,7 @@ on:
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
-  FULL_IMAGE_REF: ghcr.io/${{ github.repository }}"
+  FULL_IMAGE_REF: ghcr.io/${{ github.repository }}
 
 jobs:
   # Test the image builds and works correctly.
